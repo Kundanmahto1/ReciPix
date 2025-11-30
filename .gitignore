@@ -1,0 +1,78 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# Python Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Flask
+instance/
+.webassets-cache
+.pytest_cache/
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+.npm
+.eslintcache
+
+# IDE & Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-workspace
+*.sublime-project
+
+# Build & Output
+dist/
+build/
+*.log
+
+# OS Files
+.DS_Store
+.env.local
+Thumbs.db
+
+# Project Specific
+uploads/
+models/
+*.pt
+*.onnx
+*.pth
+ollama_data/
+
+# Temporary Files
+*.tmp
+*.temp
+.cache/
