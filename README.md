@@ -1,4 +1,4 @@
-# RecipeMaster AI 🍳
+# ReciPix: Recipe Master AI 🍳
 
 A privacy-first, locally-deployed AI application that detects food ingredients from images and generates creative recipe suggestions. Built with YOLOv8, Gemini Vision API, Roboflow, and local LLM (Ollama).
 
