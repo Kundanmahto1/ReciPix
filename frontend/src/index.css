@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #39E079;
+    --color-background-light: #f6f8f7;
+    --color-background-dark: #122017;
+    --font-display: "Space Grotesk", sans-serif;
+
+    --radius-lg: 0.5rem;
+    --radius-xl: 0.75rem;
+    --radius-full: 9999px;
+}
+
+@variant dark (.dark &);
+
+
+
+body {
+    font-family: var(--font-display);
+    min-height: 100dvh;
+}
+
+.material-symbols-outlined {
+    font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
