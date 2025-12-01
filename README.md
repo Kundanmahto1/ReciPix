@@ -141,7 +141,7 @@ curl -fsSL https://ollama.ai/install.sh | sh
 # Start Ollama server (in a separate terminal)
 ollama serve
 
-# Pull Gemma 3 (recommended, 4GB)
+# Pull Gemma 3 (recommended, 4GB) {In Another seperate Terminal}
 ollama pull gemma3:4b
 
 # OR pull Mistral (alternative, 4GB)
